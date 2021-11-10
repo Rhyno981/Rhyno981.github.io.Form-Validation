@@ -1,0 +1,76 @@
+body{
+    background-image: -webkit-linear-gradient(45deg, slategray 50%, white 50%);
+    min-height:100vh;
+}
+#h1{
+    font-weight:bold;
+    font-size:5vh;
+    float:left;
+    margin-left:550px;
+    font-family: 'Oswald', sans-serif;
+}
+#h2{
+    font-size:6vh;
+    float:left;
+    margin-left:10px;
+    font-weight:lighter;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sign{
+    border-style:solid;
+    width:500px;
+    margin-left:400px;
+    background-color: rgba(135, 206, 250, 0.473);
+    border-radius:10px;
+    padding:20px;
+    box-shadow: rgba(37, 52, 66, 0.486) 5px 5px, rgba(37, 52, 66, 0.486) 10px 10px, rgba(37, 52, 66, 0.486) 15px 15px, rgba(37, 52, 66, 0.486) 20px 20px;
+    
+}
+#fname,#lname,#email,#pnum{
+    background-color: aliceblue;
+}
+#p1{
+    font-size:15px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    cursor:pointer;
+}
+input[type=submit]:hover {
+    background-color: lightblue;
+}
+input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#gender option{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
